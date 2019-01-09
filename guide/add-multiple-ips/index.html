@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="alternate" href="/index.xml" type="application/rss+xml" title="VPS">
+		<link rel="icon" href="http://vpshost.cc/favicon.ico">
+		<title>服务器或 VPS 增加多个IP地址（Debian/Ubuntu篇） - VPS</title>
+		
+		<link rel="stylesheet" href="http://vpshost.cc/css/highlight/github.css">
+		<link rel="stylesheet" href="http://vpshost.cc/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://vpshost.cc/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="http://vpshost.cc/css/theme.css">
+		<link rel="stylesheet" href="http://vpshost.cc/css/bootie-docs.css">
+		<link rel="stylesheet" href="http://vpshost.cc/css/site.css">
+	</head>
+
+<body role="document">
+
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="http://vpshost.cc/">VPS</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li ><a href="http://vpshost.cc/">Home</a></li>
+			
+			
+				
+					<li ><a href="/categories/guide/">指南</a></li>
+				
+					<li ><a href="/categories/vps/">VPS</a></li>
+				
+					<li ><a href="/categories/domains/">域名</a></li>
+				
+					<li ><a href="/index/">归档</a></li>
+				
+					<li ><a href="/about/">关于</a></li>
+				
+			
+				
+				</ul>
+				
+				<form class="navbar-form navbar-left" role="search" action="https://www.google.co.jp/search" method="get">
+					<div class="input-group doc-search-form">
+						<input type="hidden" name="as_sitesearch" value="vpshost.cc">
+						<input type="text" name="as_q" class="search-query doc-search-input-text" placeholder="Search Site">
+						<span class="input-group-addon input-group-btn doc-search-input-btn">
+							<button class="btn" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+						</span>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+	</nav>
+
+<div class="container">
+
+
+<div class="row">
+	<div class="col-sm-8 doc-main">
+		<main role="main">
+			<article>
+				<a id="title"></a>
+				<h1 class="doc-entry-title">服务器或 VPS 增加多个IP地址（Debian/Ubuntu篇）</h1>
+				<div class="doc-entry-meta">
+					<span><time datetime="2016-06-13">June 13, 2016</time></span>
+				</div>
+				<section>
+					<p>如果你的VPS或独立服务器，可以申请到多个IP，但又没有自动添加上去，需要你手动添加，可以看这里。</p>
+
+<p>以下是永久添加方案，编辑 <code>/etc/network/interfaces</code> 添加上你的新IP，假设你原有IP为 11.11.11.11，需要添加 22.22.22.22 和 33.33.33.33 新IP，按以下样例修改：</p>
+
+<blockquote>
+<p>auto lo
+iface lo inet loopback</p>
+
+<p>auto eth0
+iface eth0 inet static
+address 11.11.11.11
+netmask 255.255.255.0
+gateway 11.11.11.1</p>
+
+<p>auto eth0:0
+iface eth0:0 inet static
+address 22.22.22.22
+netmask 255.255.255.0</p>
+
+<p>auto eth0:1
+iface eth0:1 inet static
+address 33.33.33.33
+netmask 255.255.255.0</p>
+
+<p>dns-nameservers 8.8.8.8 8.8.4.4</p>
+</blockquote>
+
+<p>Note: <strong>gateway</strong> 网关不用修改，只需要原来的那一组，只需要按着顺序添加 eth0:0 , eth0:1 , eth0:X 一直加下去，而 <strong>address</strong> IP地址改成你的新IP地址：（x改成你的）</p>
+
+<blockquote>
+<p>auto eth0:x
+iface eth0:x inet static
+address xx.xx.xx.xx
+netmask 255.255.255.0</p>
+</blockquote>
+
+<p>修改之后，用命令<code>/etc/init.d/networking restart</code> 重启网络，但这样新IP还不能用，还需要将新IP上线，命令： <code>ifup eth0:0</code> 有多个IP，就按顺序 <code>ifup eth0:1</code> <code>ifup eth0:2</code> <code>ifup eth0:3</code> <code>ifup eth0:x</code> …… 让新IP都上线可用。
+大功告成！</p>
+
+<p>Note: 对应的IP下线命令是 <code>ifdown eth0:X</code>  （<strong>X</strong>改成对应的数字，这里就不重复了）</p>
+
+<p>现在就可以用上新加的IP了。</p>
+
+				</section>
+			</article>
+		</main>
+	</div> 
+
+	
+
+<div class="col-sm-3 col-sm-offset-1 doc-sidebar">
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			<ul>
+				<li><strong><a href="#title">服务器或 VPS 增加多个IP地址（Debian/Ubuntu篇）</a></strong></li>
+			</ul>
+			
+		</div>
+	</div>
+	<div class="sidebar-module">
+		<h4 class="sidebar-heading">Pages in Categories</h4>
+		<ul class="sidebar-category-list">
+		
+			<li>
+				<a href="http://vpshost.cc/categories/guide">
+					<span class="doc-list-category">Guide</span>
+				</a>
+				<ul>
+					<li><a href="/guide/lets-encrypt-ssl/">Let&#39;s Encrypt SSL 免费证书安装使用</a>
+					</li>
+				
+					<li><a href="/guide/public-dns/">国内外公共DNS汇总</a>
+					</li>
+				
+					<li>
+						<span class="active">服务器或 VPS 增加多个IP地址（Debian/Ubuntu篇）</span>
+						</li>
+				
+					<li><a href="/guide/install-wordpress/">Wordpress 一键化安装</a>
+					</li>
+				
+					<li><a href="/guide/sublime-text-sftp-plugin-ssh-key/">Sublime Text 编辑器 sftp 插件使用 ssh key 的正确姿势</a>
+					</li>
+				
+					<li><a href="/guide/install-composer/">安装 Composer</a>
+					</li>
+				
+				</ul>
+			</li>
+		
+			<li>
+				<a href="http://vpshost.cc/categories/vps">
+					<span class="doc-list-category">Vps</span>
+				</a>
+				<ul>
+					<li><a href="/vps/big-storage-vps/">储存或备份用的VPS</a>
+					</li>
+				
+					<li><a href="/vps/bwh/">搬瓦工继续可买</a>
+					</li>
+				
+				</ul>
+			</li>
+		
+			<li>
+				<a href="http://vpshost.cc/categories/%E5%9F%9F%E5%90%8D">
+					<span class="doc-list-category">域名</span>
+				</a>
+				<ul>
+					<li><a href="/domains/io-domain-discount/">.io域名新注册、转入优惠</a>
+					</li>
+				
+				</ul>
+			</li>
+		
+		</ul>
+	</div>
+	<div class="sidebar-module">
+		<h4 class="sidebar-heading">Tags</h4>
+		<div class="tag-box">
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/.io">.io</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/backup">backup</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/composer">composer</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/public-dns">public-dns</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/ssl%E8%AF%81%E4%B9%A6">ssl证书</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/sublime">sublime</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/sublime-text">sublime-text</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/vps">vps</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/wordpress">wordpress</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E4%BC%98%E6%83%A0">优惠</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%82%A8%E5%AD%98">储存</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%85%8D%E8%B4%B9ssl%E8%AF%81%E4%B9%A6">免费ssl证书</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%85%AC%E5%85%B1dns">公共dns</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%9F%9F%E5%90%8D">域名</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%A4%87%E4%BB%BD">备份</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%A4%9Aip">多ip</a>
+		
+			<a class="tag-item" href="http://vpshost.cc/tags/%E5%BB%89%E4%BB%B7vps">廉价vps</a>
+		
+		</div>
+	</div>
+	</div>
+</div>
+
+</div> 
+
+
+<hr />
+
+<div class="row">
+	<div class="col-sm-8">
+		<p class="doc-footer-em"><a href="#" onclick="resetSidebarPos()">Back to TOP</a></p>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+	<p>Copyright (c) 2018, VPS Host; All rights reserved.</p>
+	<p>Powered by <strong><a href="https://github.com/progrhyme/hugo-theme-bootie-docs">Bootie Docs</a></strong> - theme for <a href="http://gohugo.io/">Hugo</a> by <a href="https://github.com/progrhyme/">progrhyme</a>.</p>
+</footer>
+
+
+
+<script src="http://vpshost.cc/js/jquery.min.js"></script>
+<script src="http://vpshost.cc/js/bootstrap.min.js"></script>
+
+<script src="http://vpshost.cc/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://vpshost.cc/js/ie10-viewport-bug-workaround.js"></script>
+<script src="http://vpshost.cc/js/bootie-docs.js"></script>
+
+</body>
+</html>
