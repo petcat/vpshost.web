@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 跨墙
+title: VPS Host
 subtitle:
 description:
 keywords:
-author: Qiang
+author: VPS
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kuaqiang.com
+url: https://vpshost.cc
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :categories/:title/
 permalink_defaults:
 
 # Directory
@@ -74,7 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: legend
-theme: random
+theme: legend
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
