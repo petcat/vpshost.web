@@ -19,4 +19,5 @@ rss_dir: atom.xml
 ga: # google analytics tracking code UA-XXXXXXX-X
 baidutongji: # baidutongji tracking code
 duoshuo: # duoshuo username
+disqus: vpshost
 gsc: # google custom search code
