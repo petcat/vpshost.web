@@ -10,10 +10,10 @@ social:
 # navbar menu
 menu:
  archives: true
- tags: true
+ tags: /tags #true
  categories: true
 
-rss_dir: atom.xml
+# rss_dir: atom.xml
 
 # widget
 ga: # google analytics tracking code UA-XXXXXXX-X
