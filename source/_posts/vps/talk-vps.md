@@ -12,11 +12,13 @@ tags: [vps, 趣味]
 
 1、oneman
 
-特指只有一个人经营的VPSidc服务商，业内比较出名的有ramnode，不过这家严格说并不是oneman，人家是夫妻店，是俩人23333。还有那个常年侮辱中国客户的bugetvz，是个澳洲村炮自己开的oneman店。
+特指只有一个人经营的主机服务商，业内比较出名的有ramnode，不过这家严格说并不是oneman，人家是夫妻店，是俩人23333。还有那个常年侮辱中国客户的bugetvz，是个澳洲村炮自己开的oneman店。
 
-二.毒妇，杜甫
+2、毒妇，杜甫
 
 指的是独立服务器，缩写是独服，因为输入法经常打成毒妇或者是杜甫，所以这个称呼也沿用开了。
+
+3、毒命
 
 三.小鸡
 
@@ -66,5 +68,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY0MDEzODVdfQ==
+eyJoaXN0b3J5IjpbMTk5NjQ0NjgwN119
 -->
