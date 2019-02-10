@@ -1,9 +1,9 @@
 ---
 title: 标签   #"Tags"
-type: "tags"
+typelayout: "tags"
 
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzA3NjMyMl19
+eyJoaXN0b3J5IjpbLTE5MTM5MDczMTYsMTc5MzA3NjMyMl19
 -->
