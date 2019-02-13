@@ -20,11 +20,9 @@ tags: [vps, 趣味]
 
 3、小鸡
 
-指小内存低配置的VPS，往往配置非常低，但是麻雀虽小五脏俱全，往往都有独立ip，同时价格也很便宜。
+指小内存低配置的VPS，往往配置较低，价格便宜。另外一个意思是指独立服务器里虚拟开出来的小VPS，也叫小鸡。
 
-另外一个意思就是独立服务器里开出来的小vps，也叫小鸡。
-
-四.母鸡
+4、母鸡
 
 指独立服务器。因为vps都是拿独立服务器虚拟出来的（其实就是独服开了一堆虚拟机），所以小vps叫小鸡，生出小vps来的独服叫母鸡。
 
@@ -66,5 +64,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM3ODI2ODgsMTk5NjQ0NjgwN119
+eyJoaXN0b3J5IjpbLTEyNDQ0NzcwMTMsMTk5NjQ0NjgwN119
 -->
