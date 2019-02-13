@@ -52,17 +52,13 @@ tags: [vps, 趣味]
 
 10、油管
 
-指YouTube，很多基佬喜欢用u2b的视频播放效果来衡量线路的好坏，虽然这个并不是一个很精准的检验方法。
+就是YouTube，很多人喜欢用YouTube的视频播放效果来衡量VPS线路的好坏，虽然这个并不是一个很精准的检验方法。
 
-十一.mjj
-
-“没鸡鸡”的缩写，hostloc论坛的基佬们的自称。hostloc是中国vps玩家和黄赌毒站长们的聚集地。
-
-十二.刀
+11、刀
 
 指美元，dollar的音译。大部分vps商家只支持美元支付。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NTExNTQxLDE5OTY0NDY4MDddfQ==
+eyJoaXN0b3J5IjpbMzYzNDQ4MjE3LDE5OTY0NDY4MDddfQ==
 -->
