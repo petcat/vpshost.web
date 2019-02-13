@@ -8,7 +8,7 @@ tags: [vps, 趣味]
 ---
 鲁迅：世上本没有路，走得人多了，也便成了路。
 
-如果你常混论坛，接触到VPS，就会听到一些VPS圈子才有话语，也就是俗称的黑话，整理一下，大概有以下几点。适合玩VPS的新人看看。
+如果你常接触VPS，就会听到一些VPS圈子才有话语，也就是俗称的黑话，整理一下，大概有以下的。适合玩VPS的新人了解下。
 
 1、oneman
 
@@ -68,5 +68,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYzNDI5MDMsMTk5NjQ0NjgwN119
+eyJoaXN0b3J5IjpbMTE5NDIxMDk0NCwxOTk2NDQ2ODA3XX0=
 -->
