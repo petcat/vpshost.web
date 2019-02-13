@@ -32,6 +32,7 @@ tags: [vps, 趣味]
 
 5、传家宝
 
+商家为了宣传，刺激销量，会拿部分资源以特价来出售
 部分VPS卖断货后，往往其价格会飞速飙升。这是因为如果商家不再开卖的话，一台母鸡里就这么多小鸡了，商家不会再超售了。那么小鸡的稳定性就大大提升，求购二手vps的基佬就会趋之若鹜，价格自然水涨船高。当年搬瓦工3.99刀卖断货后价格一度飞涨七八倍，涨幅都超过五道口宇宙中心的房价涨幅了，被戏称为传家宝。传家宝一名因此得来。
 
 六.黄牛
@@ -64,5 +65,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTE4MzA4OCwxOTk2NDQ2ODA3XX0=
+eyJoaXN0b3J5IjpbMTcwMzQxNDIxOSwxOTk2NDQ2ODA3XX0=
 -->
