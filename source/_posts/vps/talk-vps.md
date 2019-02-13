@@ -6,7 +6,7 @@ categories: vps  # domains coupon guide
 tags: [vps, 趣味]
 
 ---
-鲁迅：世上本没有路，走得人多了，自然就有路。
+鲁迅：世上本没有路，走得人多了，也便成了路。
 
 如果你常混论坛，接触到VPS，就会听到一些VPS圈子才有话语，也就是俗称的黑话，整理一下，大概有以下几点。适合玩VPS的新人看看。
 
@@ -68,5 +68,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjQ0NjgwN119
+eyJoaXN0b3J5IjpbLTEzNzYzNDI5MDMsMTk5NjQ0NjgwN119
 -->
