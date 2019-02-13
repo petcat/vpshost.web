@@ -12,7 +12,7 @@ tags: [vps, 趣味]
 
 1、oneman
 
-特指只有一个人经营的主机服务商，业内比较出名的有ramnode，不过这家严格说并不是oneman，人家是夫妻店，是俩人的23333。还有那个常年侮辱中国客户的bugetvz，是个澳洲村炮自己开的oneman店。至于客服，当然是外包这里泛指没有保障的主机 商
+特指只有一个人经营的主机服务商，业内比较出名的有ramnode，不过这家严格说并不是oneman，人家是夫妻店，是俩人的23333。还有那个常年侮辱中国客户的bugetvz，是个澳洲村炮自己开的oneman店。至于客服，当然是外包的啦。这里泛指没有什么保障的个人主机，抗风险能力弱，一旦有什么。
 
 2、毒妇，杜甫
 
@@ -68,5 +68,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzA1NDg5MCwxOTk2NDQ2ODA3XX0=
+eyJoaXN0b3J5IjpbLTUyNTMzOTMyOCwxOTk2NDQ2ODA3XX0=
 -->
