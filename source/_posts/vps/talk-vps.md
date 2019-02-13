@@ -48,7 +48,7 @@ tags: [vps, 趣味]
 
 9、探针
 
-一种可以得知母鸡配置的程序，通常是php小程序，放在虚拟主机上通过它就sk，挂在vps上能够查看vps的各项参数性能。基佬们经常互相交换探针地址来加深友♂谊，是py交易的前奏。
+一种可以得知母鸡配置的程序，通常是php小程序，放在虚拟主机上通过它就可以知道你在用机器实际配置是什么，内存、硬盘有多大，有多少剩余的。挂在VPS上当然就是可以查看VPSs母鸡的各项参数性能。基佬们经常互相交换探针地址来加深友♂谊，是py交易的前奏。
 
 十.油管
 
@@ -64,5 +64,5 @@ tags: [vps, 趣味]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjUxNTg0NiwxOTk2NDQ2ODA3XX0=
+eyJoaXN0b3J5IjpbLTMyOTY3NzgyMSwxOTk2NDQ2ODA3XX0=
 -->
