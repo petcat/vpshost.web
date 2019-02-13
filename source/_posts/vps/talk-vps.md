@@ -56,9 +56,9 @@ tags: [vps, 趣味]
 
 11、刀
 
-指美元，dollar的音译。因为大部分VPS商家默认只支持美元支付，于是大家都会互相介绍自己的VPS是多少刀一月。
+指美元，dollar的音译。因为大部分VPS商家默认只支持美元支付，于是大家都会互相介绍自己的VPS是多少刀买，并不说多少美元。不过现在已经很多商家开始支持支付宝支付了，不过使用支付宝会有汇率溢价，大家还是更愿意使用PayPal支付
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzgzNDM0MzYsMTk5NjQ0NjgwN119
+eyJoaXN0b3J5IjpbLTE0NzMzNjUyMzAsMTk5NjQ0NjgwN119
 -->
