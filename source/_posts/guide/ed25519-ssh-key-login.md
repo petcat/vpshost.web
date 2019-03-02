@@ -10,7 +10,8 @@ date: 2019-03-01
 
 其实换成证书登录非常简单，使用上也非常方便。
 
-1、首先需要生成证书，
+1、首先需要生成证书，Putty、Xshell都可以，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
+eyJoaXN0b3J5IjpbLTE5Mzg1MDUzOTgsMTkzNDY3MzYwOCwxNT
+YwNTIzOTAxXX0=
 -->
