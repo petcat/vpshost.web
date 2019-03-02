@@ -10,7 +10,7 @@ date: 2019-03-01
 
 其实换成证书登录非常简单，使用上也非常方便。
 
-1
+1、首先需要生成证书，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDkyMzUxMCwxNTYwNTIzOTAxXX0=
+eyJoaXN0b3J5IjpbMTkzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
 -->
