@@ -48,22 +48,24 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 使用证书登录了，当然要把不安全的密码登录禁止掉，因为密码存在着暴力猜解的可能，要使密码又复杂又好记，事实上很难做到，很多时候，大多数人往往就是都对自己设置的密码过分自信。尤其现在那么多的拖库事件。编辑 /etc/ssh/sshd_config 找出以下三项并修改：
 
-#Port  22
-#AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
-#PasswordAuthentication yes
+> #Port  22
+> #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
+> #PasswordAuthentication yes
 
 
-第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉**#**后修改才能生效，端口改成你喜欢的，比如改成3389，假装是Windows远程连接，将yes改成no就是禁止密码登录，对于新手，这里建议暂时保留22：
+第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉**#**后修改才能生效，端口改成你喜欢的，比如改成3389，假装是Windows远程连接，将yes改成no就是禁止密码登录，对于新手，这里建议暂时保留22 ：
 
-Port  22
-Port  3389
-AuthorizedKeysFile     .ssh/authorized_keys 
-PasswordAuthentication  no
+>Port  22
+>Port  3389
+>AuthorizedKeysFile     .ssh/authorized_keys 
+>PasswordAuthentication  no
+
+暂时保留的
 
 4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzUyMjMxMywxNzYxMzQyMjEwLC0xOT
-M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
+eyJoaXN0b3J5IjpbLTE4ODg3MTU3NjEsMTc2MTM0MjIxMCwtMT
+kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
