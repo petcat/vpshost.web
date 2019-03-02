@@ -34,7 +34,7 @@ The key's randomart image is:
 
 没错，这样就完成了，打开你的D盘根目录，其中ssh-key是你私钥，一定要保管好，以后都要用，而 ssh-key.pub 是公钥，是放上VPS上的，丢了也没关系，私钥里面也包含公钥的内容。   
 
-2、将公钥放到VPS上，用任意文本编辑器，如Notepad++
+2、将公钥放到VPS上，用任意文本编辑器，如Notepad++、Sublime Text等，
 
 
 echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` > /root/.ssh/authorized_keys 
@@ -43,6 +43,6 @@ chmod 600 /root/.ssh &&  chmod 700 /root/.ssh/authorized_keys
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTM0MjIxMCwtMTkzODUwNTM5OCwxOT
-M0NjczNjA4LDE1NjA1MjM5MDFdfQ==
+eyJoaXN0b3J5IjpbLTE2NjI4ODUyMjIsMTc2MTM0MjIxMCwtMT
+kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
