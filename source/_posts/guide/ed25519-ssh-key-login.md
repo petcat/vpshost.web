@@ -44,12 +44,15 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 一个专业性的建议是：你可以分别生成两套密钥，重要机器使用一套；玩具、试用、测试等则用另一套。相当于做一个隔离。
 
-3、禁止密码
+3、禁止密码登录、修改默认端口。
 
-3、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
+使用证书登录了，当然要把不安全的密码登录禁止掉，
+
+
+4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTAxNzE1NCwxNzYxMzQyMjEwLC0xOT
-M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
+eyJoaXN0b3J5IjpbMTA2OTU5ODIsMTc2MTM0MjIxMCwtMTkzOD
+UwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
