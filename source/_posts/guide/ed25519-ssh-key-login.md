@@ -26,11 +26,11 @@ Xsheall 是最为简单的，图形化窗口，工具-----新建用户密钥生�
 
 这是问你密码，和再次确认密码，就是证书读取密码，不设密码就直接回车。只要你保存好私钥，可以不设密码。
 
-Your identification has been saved in D:\ssh-key.     
-Your public key has been saved in D:\ssh-key.pub.      
-The key fingerprint is:       
-SHA256:xsJIhlo+7z8Zk/rVt4pDgt1xUCni6z54bBxgs8b5gB0 SSH-Key       
-The key's randomart image is:   
+>Your identification has been saved in D:\ssh-key.     
+>Your public key has been saved in D:\ssh-key.pub.      
+>The key fingerprint is:       
+>SHA256:xsJIhlo+7z8Zk/rVt4pDgt1xUCni6z54bBxgs8b5gB0 SSH-Key       
+>The key's randomart image is:   
 
 没错，这样就完成了，打开你的D盘根目录，其中ssh-key是你私钥，一定要保管好，以后都要用，而 ssh-key.pub 是公钥，是放上VPS上的，丢了也没关系，私钥里面也包含公钥的内容。   
 
@@ -66,7 +66,7 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ3OTAzMDAsNjE1Njc1MjMwLDEwMT
-QzNDg1MjYsMTc2MTM0MjIxMCwtMTkzODUwNTM5OCwxOTM0Njcz
-NjA4LDE1NjA1MjM5MDFdfQ==
+eyJoaXN0b3J5IjpbMjQ0NzY5NTU2LDYxNTY3NTIzMCwxMDE0Mz
+Q4NTI2LDE3NjEzNDIyMTAsLTE5Mzg1MDUzOTgsMTkzNDY3MzYw
+OCwxNTYwNTIzOTAxXX0=
 -->
