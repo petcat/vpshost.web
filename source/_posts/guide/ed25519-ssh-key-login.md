@@ -53,7 +53,7 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 #PasswordAuthentication yes
 
 
-第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉**#**后修改才能生效，yes改成no：
+第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉**#**后修改才能生效，端口改成你喜欢的，比如改成3389，假装是Windows远程连接，将yes改成no就是禁止密码登录：
 
 Port  22
 Port  3389
@@ -64,6 +64,6 @@ PasswordAuthentication  no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE4MzM4NTcsMTc2MTM0MjIxMCwtMT
-kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
+eyJoaXN0b3J5IjpbMTQzMjI2ODI3MiwxNzYxMzQyMjEwLC0xOT
+M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
