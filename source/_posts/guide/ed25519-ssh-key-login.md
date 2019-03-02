@@ -1,6 +1,6 @@
 
 ---
-title: 
+title:  生成ED25519密钥并使用密钥登录管理VPS
 categories: guide
 tags: [Key ED25519]
 date: 2019-03-01
@@ -66,7 +66,7 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NjY3MDY1LDEwMTQzNDg1MjYsMTc2MT
+eyJoaXN0b3J5IjpbNjE1Njc1MjMwLDEwMTQzNDg1MjYsMTc2MT
 M0MjIxMCwtMTkzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5
 MDFdfQ==
 -->
