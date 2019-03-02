@@ -32,9 +32,11 @@ The key fingerprint is:
 SHA256:xsJIhlo+7z8Zk/rVt4pDgt1xUCni6z54bBxgs8b5gB0 SSH-Key       
 The key's randomart image is:   
 
-没错，这样就完成了，ssh-key是你私钥，一定要保管好，以后都要用，而 ssh-key.pub 是公钥，是放上VPS上的，丢了也没关系，私钥里面也包含公钥的内容。   
+没错，这样就完成了，打开你的D盘根目录，其中ssh-key是你私钥，一定要保管好，以后都要用，而 ssh-key.pub 是公钥，是放上VPS上的，丢了也没关系，私钥里面也包含公钥的内容。   
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzc5NDMyLC0xOTM4NTA1Mzk4LDE5Mz
-Q2NzM2MDgsMTU2MDUyMzkwMV19
+eyJoaXN0b3J5IjpbLTkxODU4ODU4MCwtMTkzODUwNTM5OCwxOT
+M0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
