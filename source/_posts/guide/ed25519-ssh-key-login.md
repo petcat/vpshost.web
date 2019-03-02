@@ -46,14 +46,15 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 3、禁止密码登录、修改默认端口。
 
-使用证书登录了，当然要把不安全的密码登录禁止掉，因为密码存在着暴力猜解的可能，要使密码又复杂又好记，事实上很难做到，很多时候，大多数人往往就是都对自己设置的密码过分自信。尤其现在那么多的拖库事件。
+使用证书登录了，当然要把不安全的密码登录禁止掉，因为密码存在着暴力猜解的可能，要使密码又复杂又好记，事实上很难做到，很多时候，大多数人往往就是都对自己设置的密码过分自信。尤其现在那么多的拖库事件。编辑 /etc/ssh/sshd_config 将以下三项找到并修改：
 
+Port  22
 
 
 4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNzE2MDQyLDE3NjEzNDIyMTAsLTE5Mz
-g1MDUzOTgsMTkzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
+eyJoaXN0b3J5IjpbMjA3OTYyNTE0NywxNzYxMzQyMjEwLC0xOT
+M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
