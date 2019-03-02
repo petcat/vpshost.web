@@ -42,12 +42,14 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 有多台VPS就重复上面的做法，把你所有的VPS，都如此加上密钥。如果你只有一台VPS，那么你可以直接在VPS上生成，命令是一样的 `ssh-keygen -t ed25519 -C "SSH-Key"`，但是你要把私钥下载下来才能使用，VPS上不建议保存私钥备份。也不建议每一台VPS都生成一套密钥，这样你需要保管和使用多套密钥，会增加混乱和麻烦。
 
-一个专业性的建议是：你可以分别生成两套密钥，重要机器用一套
+一个专业性的建议是：你可以分别生成两套密钥，重要机器使用一套；玩具、试用、测试等则用另一套。相当于做一个隔离。
+
+3、禁止密码
 
 3、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjQ0NTMxNCwxNzYxMzQyMjEwLC0xOT
+eyJoaXN0b3J5IjpbLTU2MTAxNzE1NCwxNzYxMzQyMjEwLC0xOT
 M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
