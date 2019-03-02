@@ -60,12 +60,12 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 >AuthorizedKeysFile     .ssh/authorized_keys 
 >PasswordAuthentication  no
 
-暂时保留的
+暂时保留的用处是万一遇到端口没有放行（这在CentOS很常见）不至于没法连接。修改后，
 
 4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg3MTU3NjEsMTc2MTM0MjIxMCwtMT
+eyJoaXN0b3J5IjpbLTEzMDAwNzUzNzMsMTc2MTM0MjIxMCwtMT
 kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
