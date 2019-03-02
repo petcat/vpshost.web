@@ -53,14 +53,17 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 #PasswordAuthentication yes
 
 
-第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉
+第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉**#**后修改才能生效，yes改成no：
 
-
+Port  22
+Port  3389
+AuthorizedKeysFile     .ssh/authorized_keys 
+PasswordAuthentication  no
 
 4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4NDI2ODQ4LDE3NjEzNDIyMTAsLTE5Mz
-g1MDUzOTgsMTkzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
+eyJoaXN0b3J5IjpbLTIwNjE4MzM4NTcsMTc2MTM0MjIxMCwtMT
+kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
