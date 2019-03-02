@@ -46,13 +46,13 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 3、禁止密码登录、修改默认端口。
 
-使用证书登录了，当然要把不安全的密码登录禁止掉，因为密码存在着暴力猜解的可能，要使密码又复杂又好记，事实上很难的，事实上，大多数人都cf
+使用证书登录了，当然要把不安全的密码登录禁止掉，因为密码存在着暴力猜解的可能，要使密码又复杂又好记，事实上很难做到，很多时候，大多数人往往就是都对自己设置的密码过分自信。
 
 
 4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTc0ODE1MywxNzYxMzQyMjEwLC0xOT
-M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
+eyJoaXN0b3J5IjpbLTE5Njg3MzIyNjUsMTc2MTM0MjIxMCwtMT
+kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
