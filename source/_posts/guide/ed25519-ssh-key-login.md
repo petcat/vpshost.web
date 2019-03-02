@@ -37,10 +37,10 @@ The key's randomart image is:
 2、将公钥放到VPS上，
 
 
-mkdir -p /root/.ssh && chmod 600 /root/.ssh && echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` > /root/.ssh/authorized_keys && chmod 700 /root/.ssh/authorized_keys
+chmod 600 /root/.ssh && echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` > /root/.ssh/authorized_keys && chmod 700 /root/.ssh/authorized_keys
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5Mzg4NDM4OSwtMTkzODUwNTM5OCwxOT
-M0NjczNjA4LDE1NjA1MjM5MDFdfQ==
+eyJoaXN0b3J5IjpbLTE3NzM1NzA1ODMsLTE5Mzg1MDUzOTgsMT
+kzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
 -->
