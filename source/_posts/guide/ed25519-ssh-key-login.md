@@ -60,13 +60,13 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 >AuthorizedKeysFile     .ssh/authorized_keys 
 >PasswordAuthentication  no
 
-暂时保留的用处是万一遇到端口没有放行（这在CentOS很常见）不至于没法连接。修改后，重启 SSH 服务 命令： `service ssh restart` 或  `/etc/init.d/ssh restart` 或 `systemctl restart ssh` 都对（视版本不同），当然，直接重启系统，反正是新机器一开始的设置，重启
+暂时保留的用处是万一遇到端口没有放行（这在CentOS很常见）不至于没法连接。修改后，重启 SSH 服务 命令： `service ssh restart` 或  `/etc/init.d/ssh restart` 或 `systemctl restart ssh` 都对（视版本不同），当然，直接重启系统最简单的，反正是新机器一开始的设置，重启没什么影响。重启ssh服务之后，用新端口连接，没有问题就可以把 Port  22 删除不保留.
 
-4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
+4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全性大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTUyMjM5NSwxMDE0MzQ4NTI2LDE3Nj
-EzNDIyMTAsLTE5Mzg1MDUzOTgsMTkzNDY3MzYwOCwxNTYwNTIz
-OTAxXX0=
+eyJoaXN0b3J5IjpbNzg1NjY3MDY1LDEwMTQzNDg1MjYsMTc2MT
+M0MjIxMCwtMTkzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5
+MDFdfQ==
 -->
