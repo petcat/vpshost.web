@@ -34,14 +34,14 @@ The key's randomart image is:
 
 没错，这样就完成了，打开你的D盘根目录，其中ssh-key是你私钥，一定要保管好，以后都要用，而 ssh-key.pub 是公钥，是放上VPS上的，丢了也没关系，私钥里面也包含公钥的内容。   
 
-2、将公钥放到VPS上，用任意文本编辑器，如Notepad++、Sublime Text等打开公钥文件，你会看到类似于 `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` 的一行，这就是你的公钥，你需要把它上传到你的VPS，方法一，用 echo 命令写入（将下面改成你的）：
+2、将公钥放到VPS上，用任意文本编辑器，如Notepad++、Sublime Text等打开公钥文件，你会看到类似于 `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` 的一行，这就是你的公钥，你需要把它上传到你的VPS，方式一，用 echo 命令写入（将下面改成你的）：
 
 echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` > /root/.ssh/authorized_keys 
 
-方式二然后给目录和文件设置读写权限 `chmod 600 /root/.ssh &&  chmod 700 /root/.ssh/authorized_keys`
+方式二，直接将你的公钥文件ssh-key.pub改成authorized_keys，并上传到 .ssh 然后给目录和文件设置读写权限 `chmod 600 /root/.ssh &&  chmod 700 /root/.ssh/authorized_keys`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg4NDE3NzcsMTc2MTM0MjIxMCwtMT
-kzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
+eyJoaXN0b3J5IjpbMTE0NDMzMTUzNCwxNzYxMzQyMjEwLC0xOT
+M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
