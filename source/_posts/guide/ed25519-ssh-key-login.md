@@ -60,12 +60,12 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 >AuthorizedKeysFile     .ssh/authorized_keys 
 >PasswordAuthentication  no
 
-暂时保留的用处是万一遇到端口没有放行（这在CentOS很常见）不至于没法连接。修改后，重启 SSH 服务 命令： service ssh restart 或  /etc/init.d/ssh restart 或 sys
+暂时保留的用处是万一遇到端口没有放行（这在CentOS很常见）不至于没法连接。修改后，重启 SSH 服务 命令： service ssh restart 或  /etc/init.d/ssh restart 或 systemd ssh restart
 
 4、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDY0MjI1NSwxNzYxMzQyMjEwLC0xOT
+eyJoaXN0b3J5IjpbMTAxNDM0ODUyNiwxNzYxMzQyMjEwLC0xOT
 M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
