@@ -10,8 +10,9 @@ date: 2019-03-01
 
 其实换成证书登录非常简单，使用上也非常方便。
 
-1、首先需要生成证书，Putty、Xshell都可以，
+1、首先需要生成证书，Putty、Xshell都可以，事实上如果你是使用Windows 10，并保持更新，只需要打开CMD命令窗口，同样可以。
+Xsheall
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg1MDUzOTgsMTkzNDY3MzYwOCwxNT
-YwNTIzOTAxXX0=
+eyJoaXN0b3J5IjpbLTE3NTY0NDUzMTgsLTE5Mzg1MDUzOTgsMT
+kzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
 -->
