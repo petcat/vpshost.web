@@ -10,6 +10,8 @@ date: 2019-03-01
 
 其实换成证书登录非常简单，使用上也非常方便。
 
+ED25519加密解密很快，生成时间短而且安全性更高，rsa则加密解密稍慢，生成时间长，安全性没有ed25519高,只是rsa基本都是默认,所以用的人更多,但是建议转换为ed25519
+
 1、首先需要生成证书，Putty、Xshell都可以，事实上如果你是使用Windows 10，并保持更新，只需要打开CMD命令窗口，同样可以。
 Xsheall 是最为简单的，图形化窗口，工具-----新建用户密钥生成向导，向导模式，简单点下一步就可以了，而putty和cmd窗口都是使用命令生成。下面介绍下使用Windows 10系统CMD窗口来生成。
 
@@ -77,7 +79,7 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 一个专业建议：你可以将私钥修改一下再保管，例如在结尾的==之前加一个0，改成Bg0；或者在开头部分加上你的名字首拼音，或者将开头和结尾的字母大小写对换，方式自己想，只要你知道和记得。这样，即使明文保管也不担心，因为私钥根本不能直接使用。 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzYxNjMxLDYxNTY3NTIzMCwxMDE0Mz
-Q4NTI2LDE3NjEzNDIyMTAsLTE5Mzg1MDUzOTgsMTkzNDY3MzYw
-OCwxNTYwNTIzOTAxXX0=
+eyJoaXN0b3J5IjpbLTQ1MTY0MTAzNiwxNDQzNjE2MzEsNjE1Nj
+c1MjMwLDEwMTQzNDg1MjYsMTc2MTM0MjIxMCwtMTkzODUwNTM5
+OCwxOTM0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
