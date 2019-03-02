@@ -49,10 +49,11 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 使用证书登录了，当然要把不安全的密码登录禁止掉，因为密码存在着暴力猜解的可能，要使密码又复杂又好记，事实上很难做到，很多时候，大多数人往往就是都对自己设置的密码过分自信。尤其现在那么多的拖库事件。编辑 /etc/ssh/sshd_config 找出以下三项并修改：
 
 #Port  22
-#PasswordAuthentication yes
 #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
+#PasswordAuthentication yes
 
-第一行是修改端口，第二行是，第三行就是密码登录
+
+第一行是修改端口，第二行是允许证书，第三行就是密码登录。**#**是注释符，去掉
 
 
 
@@ -60,6 +61,6 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTI5NDg0OCwxNzYxMzQyMjEwLC0xOT
-M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
+eyJoaXN0b3J5IjpbNzY4NDI2ODQ4LDE3NjEzNDIyMTAsLTE5Mz
+g1MDUzOTgsMTkzNDY3MzYwOCwxNTYwNTIzOTAxXX0=
 -->
