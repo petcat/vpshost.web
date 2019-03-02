@@ -52,7 +52,7 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 #PasswordAuthentication yes
 #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
 
-第一行
+第一行是修改端口，第二行是，第三行就是密码登录
 
 
 
@@ -60,6 +60,6 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTQ5MDAwNywxNzYxMzQyMjEwLC0xOT
+eyJoaXN0b3J5IjpbMTQ3MTI5NDg0OCwxNzYxMzQyMjEwLC0xOT
 M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
