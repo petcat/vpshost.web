@@ -16,13 +16,13 @@ Xsheall 是最为简单的，图形化窗口，工具-----新建用户密钥生�
 鼠标右键点击左下角的开始徽标，打开PowerShell窗口（使用PowerShell窗口因为漂亮些），输入以下命令（注，必须加英文双引号，名字随便取）：
 `ssh-keygen -t ed25519 -C "SSH-Key"` 
 
-    Generating public/private ed25519 key pair.
-    Enter file in which to save the key (C:\Users\thedo/.ssh/id_ed25519): 
+>Generating public/private ed25519 key pair.
+>Enter file in which to save the key (C:\Users\thedo/.ssh/id_ed25519): 
 
 这是问你生成的密钥保存在那里，默认文件名是 **id_ed25519** ，默认直接回车，不过建议保存到D盘根目录 D:\ssh-key 这样方便找。C盘根目录可能有权限问题失败。
 
->>>Enter passphrase (empty for no passphrase):          
-Enter same passphrase again:       
+>Enter passphrase (empty for no passphrase):          
+>Enter same passphrase again:       
 
 这是问你密码，和再次确认密码，就是证书读取密码，不设密码就直接回车。只要你保存好私钥，可以不设密码。
 
@@ -66,7 +66,7 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1Njc1MjMwLDEwMTQzNDg1MjYsMTc2MT
-M0MjIxMCwtMTkzODUwNTM5OCwxOTM0NjczNjA4LDE1NjA1MjM5
-MDFdfQ==
+eyJoaXN0b3J5IjpbLTExNjQ3OTAzMDAsNjE1Njc1MjMwLDEwMT
+QzNDg1MjYsMTc2MTM0MjIxMCwtMTkzODUwNTM5OCwxOTM0Njcz
+NjA4LDE1NjA1MjM5MDFdfQ==
 -->
