@@ -23,12 +23,13 @@ Xsheall 是最为简单的，图形化窗口，工具-----新建用户密钥生�
 >>>Enter passphrase (empty for no passphrase):          
 Enter same passphrase again:       
 
+这是问你密码，和再次确认密码，就是证书读取密码，不设密码就直接回车
 Your identification has been saved in /home/xxx/.ssh/id_ed25519.
 Your public key has been saved in /home/xxx/.ssh/id_ed25519.pub.
 The key fingerprint is:
 SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx XXX(这几位是最上面填写的名称,在在公钥最后显示)
 The key's randomart image is:(返回的随即生成图形)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTg4MjEzMywtMTkzODUwNTM5OCwxOT
+eyJoaXN0b3J5IjpbMTQ3Mjc3MzU3MCwtMTkzODUwNTM5OCwxOT
 M0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
