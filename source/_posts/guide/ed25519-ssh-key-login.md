@@ -40,10 +40,11 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 
 方式二，直接将你的公钥文件ssh-key.pub改成authorized_keys，并上传到 /root/.ssh 目录，最后给目录和文件设置读写权限，命令： `chmod 600 /root/.ssh &&  chmod 700 /root/.ssh/authorized_keys`
 
+有多台VPS就重复上面的做法，把
 3、大功告成。以后你就可以使用你的私钥连接你的VPS了，安全大大增加。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDY2ODk1NCwxNzYxMzQyMjEwLC0xOT
+eyJoaXN0b3J5IjpbLTU0ODkxNDI0NiwxNzYxMzQyMjEwLC0xOT
 M4NTA1Mzk4LDE5MzQ2NzM2MDgsMTU2MDUyMzkwMV19
 -->
