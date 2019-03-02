@@ -25,23 +25,12 @@ Enter same passphrase again:
 
 这是问你密码，和再次确认密码，就是证书读取密码，不设密码就直接回车。只要你保存好私钥，可以不设密码。
 
-Your identification has been saved in D:\ssh-key.
-Your public key has been saved in D:\ssh-key.pub.
-The key fingerprint is:
-SHA256:xsJIhlo+7z8Zk/rVt4pDgt1xUCni6z54bBxgs8b5gB0 SSH-Key-ED25519
-The key's randomart image is:
-+--[ED25519 256]--+
-|         ...     |
-|   .  . o .      |
-|  o o. . o       |
-| + oEo... .      |
-|. o=.Oo+So       |
-|  .oO Ooo.       |
-|   ..O B. . .    |
-|   .o @... . .   |
-|    .*+o.....    |
-+----[SHA256]-----+
+> Your identification has been saved in D:\ssh-key. Your public key has
+> been saved in D:\ssh-key.pub. The key fingerprint is:
+> SHA256:xsJIhlo+7z8Zk/rVt4pDgt1xUCni6z54bBxgs8b5gB0 SSH-Key The key's
+> randomart image is:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Njg0NDc5MCwtMTkzODUwNTM5OCwxOT
-M0NjczNjA4LDE1NjA1MjM5MDFdfQ==
+eyJoaXN0b3J5IjpbMTUwNjgyODk4LC0xOTM4NTA1Mzk4LDE5Mz
+Q2NzM2MDgsMTU2MDUyMzkwMV19
 -->
