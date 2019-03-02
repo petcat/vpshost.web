@@ -36,7 +36,7 @@ Xsheall 是最为简单的，图形化窗口，工具-----新建用户密钥生�
 
 2、将公钥放到VPS上，用任意文本编辑器，如Notepad++、Sublime Text等打开公钥文件，你会看到类似于 `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` 的一行，这就是你的公钥，你需要把它上传到你的VPS，方式一，用 echo 命令写入（将下面改成你的）：
 
-echo ==ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519== > /root/.ssh/authorized_keys
+echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9GeM8ne SSH-Key-ED25519` > /root/.ssh/authorized_keys
 
 方式二，直接将你的公钥文件ssh-key.pub改成authorized_keys，并上传到 /root/.ssh 目录，最后给目录和文件设置读写权限，命令： `chmod 600 /root/.ssh &&  chmod 700 /root/.ssh/authorized_keys`
 
@@ -77,7 +77,7 @@ echo ==ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT
 
 一个专业建议：你可以将私钥修改一下再保管，例如在结尾的==之前加一个0，改成Bg0；或者在开头部分加上你的名字首拼音，或者将开头和结尾的字母大小写对换，方式自己想，只要你知道和记得。这样，即使明文保管也不担心，因为私钥根本不能直接使用。 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2NjQ3NjYzLDYxNTY3NTIzMCwxMDE0Mz
+eyJoaXN0b3J5IjpbMTQ0MzYxNjMxLDYxNTY3NTIzMCwxMDE0Mz
 Q4NTI2LDE3NjEzNDIyMTAsLTE5Mzg1MDUzOTgsMTkzNDY3MzYw
 OCwxNTYwNTIzOTAxXX0=
 -->
