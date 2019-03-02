@@ -18,18 +18,17 @@ Xsheall 是最为简单的，图形化窗口，工具-----新建用户密钥生�
 
     Generating public/private ed25519 key pair.
     Enter file in which to save the key (C:\Users\thedo/.ssh/id_ed25519): 
-这是问你生成的密钥保存在那里，默认文件名是 id_ed25519 ，默认直接回车，不过建议保存到C盘根目录，C:\SSH-Key 这样方便找
+这是问你生成的密钥保存在那里，默认文件名是 **id_ed25519** ，默认直接回车，不过建议保存到C盘根目录 C:\SSH-Key 这样方便找。
 
-Enter passphrase (empty for no passphrase): 
-(回车,返回结果)
-Enter same passphrase again: (再次确认密码,留空的还是直接回车)
-(回车,返回结果)
+>>>Enter passphrase (empty for no passphrase):          
+Enter same passphrase again:       
+
 Your identification has been saved in /home/xxx/.ssh/id_ed25519.
 Your public key has been saved in /home/xxx/.ssh/id_ed25519.pub.
 The key fingerprint is:
 SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx XXX(这几位是最上面填写的名称,在在公钥最后显示)
 The key's randomart image is:(返回的随即生成图形)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NjAwMzUxLC0xOTM4NTA1Mzk4LDE5Mz
-Q2NzM2MDgsMTU2MDUyMzkwMV19
+eyJoaXN0b3J5IjpbMTQzOTkyMTk2MCwtMTkzODUwNTM5OCwxOT
+M0NjczNjA4LDE1NjA1MjM5MDFdfQ==
 -->
