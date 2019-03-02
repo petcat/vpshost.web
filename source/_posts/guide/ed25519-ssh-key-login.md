@@ -75,9 +75,9 @@ echo `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTpjYMlckGmEUzJrHDxEzZaR6VGJ1Js7Z6LT9
 > R6VGJ1Js7Z6LT9GeM8neAAAAD1NTSC1LZXktRUQyNTUxOQECAwQFBg==
 > -----END OPENSSH PRIVATE KEY-----
 
-一个专业建议：你可以将私钥修改一下再保管，例如在结尾的==之前加一个0，改成Bg0；可以在开头部分加上你的名字首拼音，方式自己想，只要你知道和记得。这样，即使明文保管也不担心，因为私钥根本不能直接使用。 
+一个专业建议：你可以将私钥修改一下再保管，例如在结尾的==之前加一个0，改成Bg0；或者在开头部分加上你的名字首拼音，或者将结尾的字母大小写对换方式自己想，只要你知道和记得。这样，即使明文保管也不担心，因为私钥根本不能直接使用。 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcyNTI2NjIsNjE1Njc1MjMwLDEwMT
+eyJoaXN0b3J5IjpbLTE0MDMwNjYzMDMsNjE1Njc1MjMwLDEwMT
 QzNDg1MjYsMTc2MTM0MjIxMCwtMTkzODUwNTM5OCwxOTM0Njcz
 NjA4LDE1NjA1MjM5MDFdfQ==
 -->
